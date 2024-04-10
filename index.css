@@ -1,0 +1,98 @@
+
+body {
+    background-color:blueviolet;
+}
+
+.div {
+    margin-left: 400px;
+    background-color:azure;
+    width: 700px;
+    height: 500px;
+}
+
+h2{
+    padding-left: 100px;
+    font-size:xx-large;
+    font-style: oblique;
+    padding-top: 20px;
+
+}
+
+
+.btn {
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button{
+    border-radius: 50%;
+    width: 90px;
+    color:white;
+    background-color: blueviolet;
+}
+
+
+span {
+    color: blueviolet;
+}
+
+
+img {
+    width: 70px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+
+
+.right {
+    transform: scaleX(-1);
+}
+
+
+
+.main {
+    width: 1500px;
+    height: 1000px;
+}
+
+.main h1{
+    margin-left: 500px;
+    margin-top: 150px;
+    font-size: xx-large;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.play {
+    margin-left: 500px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color:darkolivegreen;
+}
+
+.cancel{
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+}
+
+.Exit {
+    margin-left: 1200px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: crimson;
+}

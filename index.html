@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <title>Rock Paper Scissors Tutorial</title>
+</head>
+<body>
+
+<section class="main">
+    <h1>ARE YOU READY?</h1>
+    <div class="ques">
+        <button class="play">Let's play</button>
+        <button class="cancel">Cancel</button>
+    </div>
+
+</section>
+
+<section class="game">  
+    <div class="div">
+        <h2>Your Choice: <span id="user-choice"></span></h2>
+        <h2>Computer Choice: <span id="computer-choice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+
+        <div class="images">
+            <img id="firstimg" class="right">
+            <img id="user-choice-img" class="r" >
+        </div>
+
+        <audio class="audio" src="./audio/win.wav"></audio>
+        <audio class="audio1" src="./audio/wrong.wav"></audio>
+
+        <div class="btn">
+            <button id="rock">rock</button>
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
+        </div>
+
+        
+
+
+    </div>  
+    
+    <button class="Exit">Exit</button>
+
+</section>  
+
+        <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>
